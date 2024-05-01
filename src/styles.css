@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 2rem;
+  background-color: #ffc100;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.main-title {
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+.input,
+.tip {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.input input,
+.tip select {
+  font-size: inherit;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.output {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.reset button {
+  border: none;
+  background-color: #00215e;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: #ffc55a;
+  font-size: inherit;
+}
